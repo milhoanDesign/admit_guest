@@ -19,3 +19,19 @@ for (let i = 0; i < people.length; i++) {
 admitted.textContent = admitted.textContent.slice(0, -2); 
 refused.textContent = refused.textContent.slice(0, -2);
 
+
+const guests = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+const invite = document.querySelector('.invite');
+const deny = document.querySelector('.deny');
+
+for (let j = 0; j < guests.length; j++) {
+    if (guests[j] === 'Anne' || guests[j] === 'Terri') {
+        deny.textContent += guests[j] + ', ';
+    } else {
+        invite.textContent += guests[j] + ', ';
+    }
+}
+
+invite.textContent = invite.textContent(0, -2);
+deny.textContent = deny.textContent(0, -2);
