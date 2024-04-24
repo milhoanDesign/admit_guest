@@ -1,0 +1,12 @@
+
+body {
+    width: 600px;
+    margin: 3rem auto;
+    background: #f5f9fa;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
