@@ -16,6 +16,6 @@ for (let i = 0; i < people.length; i++) {
     } 
 }
 
-//Remove the last comma and space from both strings
 admitted.textContent = admitted.textContent.slice(0, -2); 
 refused.textContent = refused.textContent.slice(0, -2);
+
